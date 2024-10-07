@@ -1,0 +1,8 @@
+const SUPABASE_URL = 'https://eokfafhdpbpxckoyrjkb.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVva2ZhZmhkcGJweGNrb3lyamtiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyNDM5ODEsImV4cCI6MjA0MzgxOTk4MX0.P2Yw-sF6kOIhmaDKEGvjzdZRMTY2qZSYejaiaVLC38g'
+
+// 15 minutes in seconds
+const SUPABASE_SESSION_LIFETIME = 900
+
+
+export { SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SESSION_LIFETIME }

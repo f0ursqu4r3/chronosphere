@@ -1,0 +1,6 @@
+[security]
+secret_key = "a7532753ec151f4f35e8e488a223792517c5a51240c237d560e72e4d0e1fdcd3"
+
+[supabase]
+url = "https://eokfafhdpbpxckoyrjkb.supabase.co"
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVva2ZhZmhkcGJweGNrb3lyamtiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyNDM5ODEsImV4cCI6MjA0MzgxOTk4MX0.P2Yw-sF6kOIhmaDKEGvjzdZRMTY2qZSYejaiaVLC38g"

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Register with supabase -->
+<!-- centered card -->
+<div class="columns is-centered">
+    <div class="column is-half">
+        <div class="card">
+            <div class="card-content">
+                <h1 class="title">Register</h1>
+                <form id="register-form">
+                    <div class="field">
+                        <label class="label" for="email">Email</label>
+                        <div class="control">
+                            <input class="input" type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="password">Password</label>
+                        <div class="control">
+                            <input class="input" type="password" id="password" name="password" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label" for="password-confirm">Confirm Password</label>
+                        <div class="control">
+                            <input class="input" type="password" id="password-confirm" name="password-confirm" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <button class="button is-primary" type="submit">Register</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', path='js/register.js') }}" type="module"></script>
+{% endblock %}
